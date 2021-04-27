@@ -1,4 +1,4 @@
-# NODE API-REST-MONGODB
+# Back-End - Prueba Técnica
 
 #### Guías de desarrollo
 
