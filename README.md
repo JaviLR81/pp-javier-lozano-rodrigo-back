@@ -12,8 +12,8 @@
 
 - La carpeta **/routes** contiene el archivo router.ts en la cual se definen todos los endpoints de la apirest, junto con la lógica de cada uno, como en los ejemplos siguientes:
 
-    POST-localhost:5000/login
-    POST-localhost:5000/registerUser
+    POST-localhost:5000/login, 
+    POST-localhost:5000/registerUser,
     GET-localhost:5000/getUsers
 
 - La carpeta **/token** contiene el archivo verifyToken.ts en el cual se define un método que analiza junto con algunas validaciones si el token enviado es válido, el header necesario para enviar el token es **x-access-token**.
@@ -32,7 +32,7 @@ npm run build
 tsc -w
 ````
 
-Levantar servidor con cualquiera de los siguientes comandos, el servidor se levanta en un entorno local en el puerto 5000 en caso fuese un servidor de producción por medio de la variable process.env.PORT tomariamos el puerto asignado en ese servidor, una vez levantado el proyecto podemos hacer consultas a el en la dirección:
+Levantar servidor con cualquiera de los siguientes comandos, el servidor se levanta en un entorno local en el puerto 5000 en caso fuese un servidor de producción por medio de la variable process.env.PORT tomariamos el puerto asignado en ese servidor, una vez levantado el proyecto podemos hacer consultas en la dirección:
 localhost:5000.
 
 
